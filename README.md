@@ -18,6 +18,22 @@
 * [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
   * Use whole framework
   * Use only grid
+  
+Copy CDN link and paste it inside `<head></head>` block.
+```html
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+```
+
+Download archive, extract it, and place link that refers to **bootstrap.css**
+```html
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="pathToYourBootstrapFile/bootstrap.css">
+</head>
+```
 
 ### Download
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
@@ -170,3 +186,16 @@ For example use class **.container** as child of such elements: `<header></heade
     </footer>
 </body>
 ```
+
+### Summary, Bootstrap Grid
+ 1. Easy to use, 3 main classes.
+ 2. Differen size columns.
+ 3. Responsive, mobile friendly.
+ 4. Alignment and offsetting.
+ 
+### Useful Links
+ * ![Bootstrap documentation](https://getbootstrap.com/)
+ * ![Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
+ * ![W3School guide about Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
+ 
+### Thank you!
