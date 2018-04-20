@@ -22,3 +22,6 @@
 
 ### Download
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
+
+### Grid System
+Grid - series of rows and columns that is represented by css classes. Bootstrap grid has 12 columns. Each column can be divided again into 12 columns.
