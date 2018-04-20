@@ -11,3 +11,9 @@
 * Ready components: navigation, modal windows, carousel.
 * Prepared solutions for getting things done quickly.
 * Good starting point in learning how modern websites are built.
+
+## How to get started?
+
+* Use whole framework
+* Use only grid
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
