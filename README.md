@@ -21,4 +21,4 @@
 * Use only grid
 
 ### Download
-(https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
