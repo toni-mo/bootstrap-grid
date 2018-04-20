@@ -194,8 +194,8 @@ For example use class **.container** as child of such elements: `<header></heade
  4. Alignment and offsetting.
  
 ### Useful Links
- * ![Bootstrap documentation](https://getbootstrap.com/)
- * ![Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
- * ![W3School guide about Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
+ * [Bootstrap documentation](https://getbootstrap.com/)
+ * [Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
+ * [W3School guide about Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
  
-### Thank you!
+# Thank you!
