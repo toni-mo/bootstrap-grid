@@ -20,3 +20,5 @@
 * Use whole framework
 * Use only grid
 
+### Download
+(https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
