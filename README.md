@@ -120,4 +120,4 @@ Working with row again
     </div>
 </div>
 ```
-
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/horizontal-alignment.PNG)
