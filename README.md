@@ -101,3 +101,23 @@ Here we're working with column
 </div>
 ```
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment-column.PNG)
+
+### Horizontal alignment
+Working with row again
+ * **.justify-content-start**
+ * **.justify-content-center**
+ * **.justify-content-end**
+ * **.justify-content-around**
+ * **.justify-content-between**
+ 
+```html
+<div class="row justify-content-start">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+</div>
+```
+
