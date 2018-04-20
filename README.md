@@ -25,3 +25,12 @@
 
 ### Grid System
 Grid - series of rows and columns that is represented by css classes. Bootstrap grid has 12 columns. Each column can be divided again into 12 columns.
+
+### Three main CSS classes
+* .container
+* .row
+* .col
+
+* **.container** class is basically general container for whole grid system, for rows and columns. It’s purpose is to center content, give some horizontal padding to it.
+* **.row** class serves as wrapper for columns. It’s the place to put your columns in.
+* **.col** class is the place where your content would go.
