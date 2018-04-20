@@ -15,7 +15,7 @@
 ## How to get started?
 
 * [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css)
-** [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
+* [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
 
 * Use whole framework
 * Use only grid
