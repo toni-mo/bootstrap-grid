@@ -14,6 +14,8 @@
 
 ## How to get started?
 
+* [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+
 * Use whole framework
 * Use only grid
-https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
