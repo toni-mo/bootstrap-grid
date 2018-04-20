@@ -33,3 +33,7 @@ Grid - series of rows and columns that is represented by css classes. Bootstrap 
   * **.container** class is basically general container for whole grid system, for rows and columns. It’s purpose is to center content, give some horizontal padding to it.
   * **.row** class serves as wrapper for columns. It’s the place to put your columns in.
   * **.col** class is the place where your content would go.
+  
+ ### Different size of columns
+ .col-1   .col-2   .col-3   .col-4  .col-5   .col-6   .col-7   .col-8   .col-9   .col-10   .col-11  .col-12
+   8%       16%      24%      32%     ->
