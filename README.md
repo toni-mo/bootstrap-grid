@@ -121,3 +121,7 @@ Working with row again
 </div>
 ```
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/horizontal-alignment.PNG)
+
+### Offsetting
+Sometimes we want to have some empty space before between or after columns. Or just move them a little bit.
+Move columns to the right using **.offset-md** classes. These classes increase the left margin of a column by * columns. For example, **.offset-md-4** moves .col-md-4 over four columns.
