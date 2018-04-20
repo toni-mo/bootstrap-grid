@@ -125,3 +125,48 @@ Working with row again
 ### Offsetting
 Sometimes we want to have some empty space before between or after columns. Or just move them a little bit.
 Move columns to the right using **.offset-md** classes. These classes increase the left margin of a column by * columns. For example, **.offset-md-4** moves .col-md-4 over four columns.
+
+```html
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+  <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+</div>
+<div class="row">
+  <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+</div>
+```
+
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/offsetting.PNG)
+
+### Proper semantic
+Don't use **Grid classes** just with `<div>`'s, try to place them inside proper semantic blocks.
+For example use class **.container** as child of such elements: `<header></header>`, `<main></main>`, `<footer></footer>`.
+```html
+<body>
+    <header>
+        <div class="container">
+            <div class="col-12"></div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-8"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+```
