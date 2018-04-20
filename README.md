@@ -79,3 +79,25 @@ Here we have to work with row
   </div>
 ```
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment.PNG)
+
+### Vertical alignment(for column)
+Here we're working with column
+ * **.align-self-start**
+ * **.align-self-center**
+ * **.align-self-end**
+```html
+<div class="container">
+  <div class="row">
+    <div class="col align-self-start">
+      One of three columns
+    </div>
+    <div class="col align-self-center">
+      One of three columns
+    </div>
+    <div class="col align-self-end">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment-column.PNG)
