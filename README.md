@@ -35,5 +35,6 @@ Grid - series of rows and columns that is represented by css classes. Bootstrap 
   * **.col** class is the place where your content would go.
   
  ### Different size of columns
- .col-1   .col-2   .col-3   .col-4  .col-5   .col-6   .col-7   .col-8   .col-9   .col-10   .col-11  .col-12
-   8%       16%      24%      32%     ->
+.col-1|.col-2|.col-3|.col-4|...|.col-12|
+------|------|------|------|---|-------|
+8%|12%|16%|24%|32%|40%|48%|...|100%|
