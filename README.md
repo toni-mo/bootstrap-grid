@@ -38,3 +38,6 @@ Grid - series of rows and columns that is represented by css classes. Bootstrap 
 .col-1|.col-2|.col-3|.col-4|...|.col-12|
 ------|------|------|------|---|-------|
 8%|12%|16%|24%|...|100%|
+
+### Breaking down Grid
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-whole-system.png)
