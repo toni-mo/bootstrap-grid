@@ -78,3 +78,4 @@ Here we have to work with row
     </div>
   </div>
 ```
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment.PNG)
