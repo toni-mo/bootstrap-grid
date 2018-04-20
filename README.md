@@ -58,3 +58,23 @@ Is it mobile friendly?
 ### Alignment
  1. Vertical alignment
  2. Horizontal alignment
+
+### Vertical alignment(for row)
+Here we have to work with row
+ * **.align-items-start**
+ * **.align-items-center**
+ * **.align-items-end**
+ 
+```html
+<div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+```
