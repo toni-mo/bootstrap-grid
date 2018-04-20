@@ -17,8 +17,8 @@
 * [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css)
 * [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
 
-..* Use whole framework
-..* Use only grid
+ * Use whole framework
+ * Use only grid
 
 ### Download
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
