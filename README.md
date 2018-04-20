@@ -54,3 +54,7 @@ Grid - series of rows and columns that is represented by css classes. Bootstrap 
 Is your website responsive?
 Is it mobile friendly?
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/responsiveness-table.PNG)
+
+### Alignment
+ 1. Vertical alignment
+ 2. Horizontal alignment
