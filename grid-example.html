@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        .border{
+            border: 1px solid black!important;
+        }
+        .header-column{
+            height: 100px;
+        }
+        .main-column{
+            height: 500px;
+        }
+        .small-column{
+            height: 100px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 header-column border">
+                <h3>Header column .col-12</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 main-column border">
+                <h3>.main-column .col-4</h3>
+            </div>
+            <div class="col-10 main-column border">
+                <h3>.main-column .col-8</h3>
+                <div class="row border">
+                    <div class="col-12 col col-xl-3 small-column border">
+                        <h4>.small-column .col-3</h4>
+                    </div>
+                    <div class="col-12 col-xl-3 small-column border">
+                        <h4>.small-column .col-3</h4>
+                    </div>
+                    <div class="col-12 col-xl-3 small-column border">
+                        <h4>.small-column .col-3</h4>
+                    </div>
+                    <div class="col-12 col-xl-3 small-column border">
+                        <h4>.small-column .col-3</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
