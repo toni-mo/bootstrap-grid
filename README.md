@@ -21,7 +21,7 @@ Bootstrap is a free and open-source front-end library for designing websites and
 
 ## How to get started?
 
-* [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css) - _Content Delivery Network_
+* [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css) _(Content Delivery Network)_ - copy and paste link into `<head></head>` section.
 * [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
   * use whole framework
   * use only grid
