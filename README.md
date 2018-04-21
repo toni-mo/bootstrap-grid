@@ -1,5 +1,5 @@
 # Bootstrap Grid
-**It's an easy way to create layout for your website.**
+**It's a feature of Bootstrap Framework that helps to create a layout for your website.**
 
 _(layout - the way in which the parts of something are arranged or laid out.)_
 
@@ -45,17 +45,17 @@ Bootstrap is a free and open-source front-end library for designing websites and
 
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
 
-### Grid System
-Grid - series of rows and columns that is represented by css classes. Bootstrap grid has 12 columns. Each column can be divided again into 12 columns.
+## Grid System
+Grid - the feature of Bootstrap that helps you create layout. It is series of rows and columns that are represented by css classes. Bootstrap grid has 12 columns.
 
 ### Three main CSS classes
 * .container
 * .row
 * .col
 
-  * **.container** class is basically general container for whole grid system, for rows and columns. It’s purpose is to center content, give some horizontal padding to it.
-  * **.row** class serves as wrapper for columns. It’s the place to put your columns in.
-  * **.col** class is the place where your content would go.
+**.container** class is basically general container for whole grid system, for rows and columns. It’s purpose is to center content, give some horizontal padding to it.
+**.row** class serves as wrapper for columns. It’s the place to put your columns in.
+**.col** class is the place where your content would go.
   
  ### Different size of columns
 .col-1|.col-2|.col-3|.col-4|...|.col-12|
