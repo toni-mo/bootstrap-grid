@@ -5,7 +5,9 @@ _(layout - the way in which the parts of something are arranged or laid out.)_
 
 
 ## Bootstrap
-CSS Framework = CSS Library = CSS file
+Bootstrap is a free and open-source front-end library for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
+
+**CSS Framework = CSS Library = CSS file**
 
 [Bootstrap](https://getbootstrap.com/)
 
