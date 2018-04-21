@@ -12,7 +12,7 @@ Bootstrap is a free and open-source front-end library for designing websites and
 [Bootstrap](https://getbootstrap.com/)
 
 
-### What are the pros of Bootstrap?
+## What are the pros of Bootstrap?
 * Grid system.
 * Prepared styles for different html elements.
 * Ready components: navigation, modal windows, carousel.
