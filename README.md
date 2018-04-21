@@ -27,7 +27,7 @@ Bootstrap is a free and open-source front-end library for designing websites and
     * use whole bootstrap with all it's features.
     * use only grid feature.
   
-**CDN link**
+**CDN link to reamote file**
 ```html
 <head>
     <title>Document</title>
