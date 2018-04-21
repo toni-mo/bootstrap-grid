@@ -108,9 +108,9 @@ Try replacing `<div class="col">`, from previous example, for the two divs with 
 ### Nested Columns
 You can create nested columns. **Each can be divided into 12 smaller columns**. The following table provides you with example of possible nesting.
 
-.col-12|.col-12|.col-12|.col-10|.col-6
-------|------|------|------|------|
-.col-6 .col-6|.col-8 .col4|.col-3 .col-3 .col-3 .col-3|.col-8 .col-4|.col-6 .col-6|
+Parent Column|.col-12|.col-12|.col-12|.col-10|.col-6
+------|------|------|------|------|------|
+Child Columns|.col-6 .col-6|.col-8 .col4|.col-3 .col-3 .col-3 .col-3|.col-8 .col-4|.col-6 .col-6|
 
 ### Breaking down Grid
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/youtube-screenshot.png)
