@@ -27,7 +27,7 @@ Bootstrap is a free and open-source front-end library for designing websites and
     * use whole bootstrap with all it's features.
     * use only grid feature.
   
-Copy CDN link and paste it inside `<head></head>` block.
+**CDN link**
 ```html
 <head>
     <title>Document</title>
@@ -35,7 +35,7 @@ Copy CDN link and paste it inside `<head></head>` block.
 </headsup>
 ```
 
-Download archive, extract it, and place link that refers to **bootstrap.css**
+**Link to file on your machine**
 ```html
 <head>
     <title>Document</title>
