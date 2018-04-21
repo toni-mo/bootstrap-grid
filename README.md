@@ -58,6 +58,9 @@ Grid - the feature of Bootstrap that helps you create layout. It is series of ro
 **.row** class serves as wrapper for columns. It’s the place to put your columns in.
 
 **.col** class is the place where your content would go.
+
+### Try this simple example
+Class **.container** holds everything and creates those margins on the sides. **.row** contains columns. And **.col-12** is a column for your content. Class **.border** is a Bootstrap utility class that helps us see the border of a column. Our custom class **.height** is just for the purpose of giving visual height to our column.
   
 ### Different size of columns
 In Bootstrap, Grid is divided into **12** columns. Therefore it provides you with classes for different size columns from **.col-1** to **.col-12**.
