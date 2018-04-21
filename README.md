@@ -54,7 +54,9 @@ Grid - the feature of Bootstrap that helps you create layout. It is series of ro
 * .col
 
 **.container** class is basically general container for whole grid system, for rows and columns. It’s purpose is to center content, give some horizontal padding to it.
+
 **.row** class serves as wrapper for columns. It’s the place to put your columns in.
+
 **.col** class is the place where your content would go.
   
  ### Different size of columns
