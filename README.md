@@ -1,10 +1,12 @@
 # Bootstrap Grid
 **It's an easy way to create layout for your website.**
+
 (layout - the way in which the parts of something are arranged or laid out.)
 
 
 ## Bootstrap
 CSS Framework = CSS Library = CSS file
+
 [Bootstrap](https://getbootstrap.com/)
 
 
