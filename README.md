@@ -43,7 +43,6 @@ Bootstrap is a free and open-source front-end library for designing websites and
 </head>
 ```
 
-### CSS files you get
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
 
 ### Grid System
