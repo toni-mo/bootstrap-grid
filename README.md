@@ -23,8 +23,8 @@ Bootstrap is a free and open-source front-end library for designing websites and
 
 * [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css) - _Content Delivery Network_
 * [Download](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js)
-  * Use whole framework
-  * Use only grid
+  * use whole framework
+  * use only grid
   
 Copy CDN link and paste it inside `<head></head>` block.
 ```html
@@ -42,7 +42,7 @@ Download archive, extract it, and place link that refers to **bootstrap.css**
 </head>
 ```
 
-### Download
+### CSS files you get
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
 
 ### Grid System
