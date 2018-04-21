@@ -1,5 +1,5 @@
 # Bootstrap Grid
-It's an easy way to create layout for your website.
+**It's an easy way to create layout for your website.**
 
 
 CSS Framework = CSS Library = CSS file
