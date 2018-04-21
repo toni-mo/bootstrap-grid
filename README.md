@@ -60,7 +60,7 @@ Grid - the feature of Bootstrap that helps you create layout. It is series of ro
 **.col** class is the place where your content would go.
 
 ### Try this simple example
-Class **.container** holds everything and creates those margins on the sides. **.row** contains columns. And **.col-12** is a column for your content. Class **.border** is a Bootstrap utility class that helps us see the border of a column. Our custom class **.height** is just for the purpose of giving visual height to our column.
+Class **.container** holds everything and creates those margins on the sides. **.row** contains columns. And **.col** is a column for your content. Class **.border** is a Bootstrap utility class that helps us see the border of a column. Our custom class **.height** is just for the purpose of giving visual height to our column.
   
 ```html
 <!DOCTYPE html>
@@ -77,8 +77,8 @@ Class **.container** holds everything and creates those margins on the sides. **
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 border">
-                <h1>This is column with class .col-12</h1>
+            <div class="col border">
+                <h1>This is column with class .col</h1>
             </div>
         </div>
     </div>
@@ -92,6 +92,16 @@ In Bootstrap, Grid is divided into **12** columns. Therefore it provides you wit
 .col-1|.col-2|.col-3|.col-4|.col-5|.col-6|.col-7|.col-8|.col-9|.col-10|.col-11|.col-12|
 ------|------|------|------|------|------|------|------|------|------|------|------|
 8.3%|16.6%|25%|33.3%|41.6%|50%|58.3%|66.6%|75%|83.3%|91.6%|100%|
+
+### Try replacing `<div class="col">` for the following code two divs with classes .col-6:
+```html
+<div class="col-6 border height">
+  <h1>This is column with class .col-6</h1>
+</div>
+<div class="col-6 border height">
+    <h1>This is column with class .col-6</h1>
+</div>
+```
 
 ### Nested Columns
 You can create nested columns. **Each can be divided into 12 smaller columns**. The following table provides you with example of possible nesting.
