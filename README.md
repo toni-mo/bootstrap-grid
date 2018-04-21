@@ -94,7 +94,7 @@ In Bootstrap, Grid is divided into **12** columns. Therefore it provides you wit
 8.3%|16.6%|25%|33.3%|41.6%|50%|58.3%|66.6%|75%|83.3%|91.6%|100%|
 
 ### Using columns with different sizes 
-Try replacing `<div class="col">` for the two divs with classes **.col-6**:
+Try replacing `<div class="col">`, from previous example for the two divs with classes **.col-6**:
 
 ```html
 <div class="col-6 border height">
