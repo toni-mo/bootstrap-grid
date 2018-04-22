@@ -131,16 +131,16 @@ Replace two columns with **.col-6**, from previous example, for one **.col-12** 
 ## Breaking down Grid
 All modern websites are using grid for their layout. At first glance it's not that obvious how it works. To get clear understanding, lets break down the grid of **youtube** page and try to recreate it in the following few sections.
 
-## Webpage itself
+### Webpage itself
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/youtube-screenshot.png)
 
-## Webpage with grid above
+### Webpage with grid above
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-whole-system.png)
 
-## Recreating the grid
+### Recreating the grid
 Lets take a look at the following wireframe and try to create it with code.
 
-## Creating container
+### Creating container
 Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/whole-system.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/row-row.png)
