@@ -48,7 +48,7 @@ Bootstrap is a free and open-source front-end library for designing websites and
 ## Grid System
 Grid - the feature of Bootstrap that helps you create layout. It is series of rows and columns that are represented by css classes. Bootstrap grid has 12 columns.
 
-### Three main CSS classes
+### Three main CSS classes to create grid
 * .container
 * .row
 * .col
@@ -128,9 +128,20 @@ Replace two columns with **.col-6**, from previous example, for one **.col-12** 
   </div>
 </div>
 ```
-### Breaking down Grid
+## Breaking down Grid
+All modern websites are using grid for their layout. At first glance it's not that obvious how it works. To get clear understanding, lets break down the grid of **youtube** page and try to recreate it in the following few sections.
+
+## Webpage itself
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/youtube-screenshot.png)
+
+## Webpage with grid above
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-whole-system.png)
+
+## Recreating the grid
+Lets take a look at the following wireframe and try to create it with code.
+
+## Creating container
+Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/whole-system.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/row-row.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/col-col-col.png)
