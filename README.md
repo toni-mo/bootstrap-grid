@@ -113,7 +113,7 @@ Parent Column|.col-12|.col-12|.col-12|.col-10|.col-6
 Child Columns|.col-6 .col-6|.col-8 .col4|.col-3 .col-3 .col-3 .col-3|.col-8 .col-4|.col-6 .col-6|
 
 ### Example
-Replace two columns with **.col-6** for following code:
+Replace two columns with **.col-6**, from previous example, for one **.col-12** column with two child columns with **.col-6**, following code:
 
 ```html
 <div class="col-12 border">
