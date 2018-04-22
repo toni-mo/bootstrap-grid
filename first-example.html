@@ -12,11 +12,16 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 border height">
-                <h1>This is column with class .col-6</h1>
-            </div>
-            <div class="col-6 border height">
-                <h1>This is column with class .col-6</h1>
+            <div class="col-12 border">
+                Parent column: .col-12
+                <div class="row">
+                    <div class="col-6 border height">
+                        <h1>Child column: .col-6</h1>
+                    </div>
+                    <div class="col-6 border height">
+                        <h1>Child column: .col-6</h1>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -106,12 +106,28 @@ Try replacing `<div class="col">`, from previous example, for the two divs with 
 ```
 
 ### Nested Columns
-You can create nested columns. **Each can be divided into 12 smaller columns**. The following table provides you with example of possible nesting.
+You can create nested columns. **Each can be divided into 12 smaller columns**. To nest your content with the default grid, add a new **.row** and set of **.col** columns within an existing **.col** column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns). The following table provides you with example of possible nesting.
 
 Parent Column|.col-12|.col-12|.col-12|.col-10|.col-6
 ------|------|------|------|------|------|
 Child Columns|.col-6 .col-6|.col-8 .col4|.col-3 .col-3 .col-3 .col-3|.col-8 .col-4|.col-6 .col-6|
 
+### Example
+Replace two columns with **.col-6** for following code:
+
+```html
+<div class="col-12 border">
+  Parent column: .col-12
+  <div class="row">
+      <div class="col-6 border height">
+          <h1>Child column: .col-6</h1>
+      </div>
+      <div class="col-6 border height">
+          <h1>Child column: .col-6</h1>
+      </div>
+  </div>
+</div>
+```
 ### Breaking down Grid
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/youtube-screenshot.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-whole-system.png)
