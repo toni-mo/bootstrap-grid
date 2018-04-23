@@ -150,28 +150,11 @@ Start by creating **html base** document with **CDN link** for **Bootstrap**. An
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <style>
-         .height{
-            height: 200px;
-        }
-        .row1-height{
-            height: 100px;
-        }
-        .row2-height{
-            height: 500px;
-        }
-        .border-black{
-            border: 1px solid black;
-        }
-    </style>
 </head>
 <body>
-    <div class="container border-black">
+    <div class="container">
         <h1>.container</h1>
     </div>
 </body>
@@ -186,8 +169,8 @@ Lets add inside **.container** two **divs with class .row**
 
 ```html
 <div class="container">
-    <div class="row row1-height border-black"></div>
-    <div class="row row2-height border-black"></div>
+    <div class="row"></div>
+    <div class="row"></div>
 </div>
 ```
 
@@ -200,15 +183,15 @@ First **.col** will go inside first **.row**. Next two columns will go into the 
 ```html
 <div class="container">
     <div class="row">
-        <div class="col border-black">
+        <div class="col-12">
             <h1>.col</h1>
         </div>
     </div>
-    <div class="row row2-height">
-        <div class="col-4 border-black">
+    <div class="row">
+        <div class="col-4">
             <h1>.col-4</h1>
         </div>
-        <div class="col-8 border-black">
+        <div class="col-8">
             <h1>.col-8</h1>
         </div>
     </div>
@@ -223,16 +206,16 @@ Now we can nest row inside the column.
 ```html
 <div class="container">
     <div class="row">
-        <div class="col border-black">
+        <div class="col-12">
             <h1>.col</h1>
         </div>
     </div>
-    <div class="row row2-height">
-        <div class="col-4 border-black">
+    <div class="row">
+        <div class="col-4">
             <h1>.col-4</h1>
         </div>
-        <div class="col-8 border-black">
-            <div class="row border-black">
+        <div class="col-8">
+            <div class="row">
                 <h1>.row</h1>
             </div>
         </div>
@@ -248,26 +231,26 @@ Lets add four columns insed the row that we created in previous example.
 ```html
     <div class="container">
         <div class="row">
-            <div class="col border-black">
+            <div class="col">
                 <h1>.col</h1>
             </div>
         </div>
-        <div class="row row2-height">
-            <div class="col-4 border-black">
+        <div class="row">
+            <div class="col-4">
                 <h1>.col-4</h1>
             </div>
-            <div class="col-8 border-black">
-                <div class="row">
-                    <div class="col-3 border-black">
+            <div class="col-8">
+                <div class="row"
+                    <div class="col-3">
                         <h1>.col-3</h1>
                     </div>
-                    <div class="col-3 border-black">
+                    <div class="col-3">
                         <h1>.col-3</h1>
                     </div>
-                    <div class="col-3 border-black">
+                    <div class="col-3">
                         <h1>.col-3</h1>
                     </div>
-                    <div class="col-3 border-black">
+                    <div class="col-3">
                         <h1>.col-3</h1>
                     </div>
                 </div>
