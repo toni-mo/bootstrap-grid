@@ -276,10 +276,40 @@ Lets add four columns insed the row that we created in previous example.
     </div>
 ```
 
-### Responsiveness
-Is your website responsive?
-Is it mobile friendly?
+## Responsiveness
+Is your website responsive? Is it mobile friendly?
+Bootstrap Grid provides you with set of classes with specific **prefixes** that give you possibility to control how your layout would look on devices with different displays. The following table shows which class represents which display size.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/responsiveness-table.PNG)
+
+Lets use simple example code and try changing the width of the browser window which simulates different display size.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-3 col-12 border">
+                <h1>.col-lg-6 .col-md-4 .col-sm-3 .col-12</h1>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-3 col-12 border">
+                <h1>.col-lg-6 .col-md-4 .col-sm-3 .col-12</h1>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-3 col-12 border">
+                <h1>.col-lg-6 .col-md-4 .col-sm-3 .col-12</h1>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-3 col-12 border">
+                <h1>.col-lg-6 .col-md-4 .col-sm-3 .col-12</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 ### Alignment
  1. Vertical alignment
