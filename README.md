@@ -177,7 +177,7 @@ Lets add inside **.container** two **divs with class .row**
 #### Webpage with container, 2 main rows, 3 main columns
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-3columns.png)
 
-### Creating 3 columns
+### Creating 3 big columns
 First **.col** will go inside first **.row**. Next **two columns** will go into the **second row**.
 
 ```html
