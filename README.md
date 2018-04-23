@@ -140,7 +140,7 @@ All modern websites are using grid for their layout. At first glance it's not th
 ### Recreating the grid
 Lets take a look at the following wireframe and try to create it with code.
 
-### Webpage with container
+#### Webpage with container
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-container.png)
 
 ### Creating container
@@ -178,7 +178,7 @@ Start by creating **html base** document with **CDN link** for **Bootstrap**. An
 </html>
 ```
 
-#### Webpage with container, and two main rows
+#### Webpage with container, and 2 main rows
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-2rows.png)
 
 ### Adding 2 main rows
@@ -191,7 +191,7 @@ Lets add inside **.container** two **divs with class .row**
 </div>
 ```
 
-### Webpage with container, 2 main rows, 3 main columns
+#### Webpage with container, 2 main rows, 3 main columns
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-3columns.png)
 
 ### Creating 3 columns
@@ -214,7 +214,7 @@ First **.col** will go inside first **.row**. Next two columns will go into the 
     </div>
 </div>
 ```
-### Webpage with container, 2 main rows, 3 main columns, 1 row
+#### Webpage with container, 2 main rows, 3 main columns, 1 row
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-1row.png)
 
 ### Creating row for small columns
@@ -239,7 +239,7 @@ Now we can nest row inside the column.
     </div>
 </div>
 ```
-### Webpage with container, 2 main rows, 3 main columns, 1 row, 4 small columns
+#### Webpage with container, 2 main rows, 3 main columns, 1 row, 4 small columns
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-4columns.png)
 
 ### Final step
