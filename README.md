@@ -178,7 +178,7 @@ Start by creating **html base** document with **CDN link** for **Bootstrap**. An
 </html>
 ```
 
-### Webpage with container, and two main rows
+#### Webpage with container, and two main rows
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-2rows.png)
 
 ### Adding 2 main rows
@@ -275,14 +275,6 @@ Lets add four columns insed the row that we created in previous example.
         </div>
     </div>
 ```
-
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/whole-system.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/row-row.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/col-col-col.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/col-col-col.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/row.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/4columns.png)
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/whole-system.png)
 
 ### Responsiveness
 Is your website responsive?
