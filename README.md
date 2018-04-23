@@ -141,7 +141,50 @@ All modern websites are using grid for their layout. At first glance it's not th
 Lets take a look at the following wireframe and try to create it with code.
 
 ### Creating container
-Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it.
+Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it. **.height class is for creating visual height**, class **.border-black** adds border to blocks.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        .height{
+            height: 200px;
+        }
+        .border-black{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container border-black">
+        <h1>.container</h1>
+    </div>
+</body>
+</html>
+```
+
+### Adding 2 main rows
+Lets add inside **.container** two **divs with class .row**
+
+```html
+
+```
+
+### Creating 3 columns
+First **.col** will go inside first **.row**. Next two columns
+
+### 
+
+
+```html
+
+```
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/whole-system.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/row-row.png)
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/col-col-col.png)
