@@ -135,7 +135,7 @@ All modern websites are using grid for their layout. At first glance it's not th
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/youtube-screenshot.png)
 
 ### Webpage with grid above
-![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-whole-system.png)
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/clear-system.png)
 
 ### Recreating the grid
 Lets take a look at the following wireframe and try to create it with code.
