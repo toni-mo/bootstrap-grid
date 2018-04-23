@@ -303,9 +303,9 @@ You can achieve it by adding specific classes either to **row** or to **column**
 
 ### Vertical alignment(for row)
 Here we have to work with row and add following classes.
- * **.align-items-start** - alignes columns at the top of the row.
- * **.align-items-center** - alignes columns in the middle of the row.
- * **.align-items-end** - alignes columns at the bottom of the row.
+ * **.align-items-start** - aligns columns at the top of the row.
+ * **.align-items-center** - aligns columns in the middle of the row.
+ * **.align-items-end** - aligns columns at the bottom of the row.
  
 ```html
 <div class="row align-items-start">
@@ -324,9 +324,9 @@ Here we have to work with row and add following classes.
 
 ### Vertical alignment(for column)
 Here we're working with column and adding following classes.
- * **.align-self-start** - alignes **only this** column at the top of the row.
- * **.align-self-center** - alignes **only this** column in the middle of the row.
- * **.align-self-end** - alignes **only this** column at the bottom of the row.
+ * **.align-self-start** - aligns **only this** column at the top of the row.
+ * **.align-self-center** - aligns **only this** column in the middle of the row.
+ * **.align-self-end** - aligns **only this** column at the bottom of the row.
 ```html
 <div class="container">
   <div class="row">
@@ -346,11 +346,11 @@ Here we're working with column and adding following classes.
 
 ### Horizontal alignment
 Working with row again and adding following classes.
- * **.justify-content-start** - alignes columns on the left, in the begining of the row.
- * **.justify-content-center** - alignes columns in the center of the row.
- * **.justify-content-end** - alignes columns on the right, in the end of the row.
- * **.justify-content-around** - alignes columns closer to the center with gap between and around the columns.
- * **.justify-content-between** - alignes columns at the left and right ends of the row with big gap between them.
+ * **.justify-content-start** - aligns columns on the left, in the begining of the row.
+ * **.justify-content-center** - aligns columns in the center of the row.
+ * **.justify-content-end** - aligns columns on the right, in the end of the row.
+ * **.justify-content-around** - aligns columns closer to the center with gap between and around the columns.
+ * **.justify-content-between** - aligns columns at the left and right ends of the row with big gap between them.
  
 ```html
 <div class="row justify-content-start">
