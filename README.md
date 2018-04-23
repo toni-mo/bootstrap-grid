@@ -140,6 +140,9 @@ All modern websites are using grid for their layout. At first glance it's not th
 ### Recreating the grid
 Lets take a look at the following wireframe and try to create it with code.
 
+### Webpage with container
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-container.png)
+
 ### Creating container
 Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it. **.height class is for creating visual height**, class **.border-black** adds border to blocks.
 
@@ -175,6 +178,9 @@ Start by creating **html base** document with **CDN link** for **Bootstrap**. An
 </html>
 ```
 
+### Webpage with container, and two main rows
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-2rows.png)
+
 ### Adding 2 main rows
 Lets add inside **.container** two **divs with class .row**
 
@@ -184,6 +190,9 @@ Lets add inside **.container** two **divs with class .row**
     <div class="row row2-height border-black"></div>
 </div>
 ```
+
+### Webpage with container, 2 main rows, 3 main columns
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-3columns.png)
 
 ### Creating 3 columns
 First **.col** will go inside first **.row**. Next two columns will go into the second row.
@@ -205,6 +214,9 @@ First **.col** will go inside first **.row**. Next two columns will go into the 
     </div>
 </div>
 ```
+### Webpage with container, 2 main rows, 3 main columns, 1 row
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-1row.png)
+
 ### Creating row for small columns
 Now we can nest row inside the column.
 
@@ -227,6 +239,8 @@ Now we can nest row inside the column.
     </div>
 </div>
 ```
+### Webpage with container, 2 main rows, 3 main columns, 1 row, 4 small columns
+![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-4columns.png)
 
 ### Final step
 Lets add four columns insed the row that we created in previous example.
