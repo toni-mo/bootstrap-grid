@@ -173,7 +173,36 @@ Start by creating **html base** document with **CDN link** for **Bootstrap**. An
 Lets add inside **.container** two **divs with class .row**
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        .height{
+            height: 200px;
+        }
+        .row1-height{
+            height: 100px;
+        }
+        .row2-height{
+            height: 500px;
+        }
+        .border-black{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row row1-height border-black"></div>
+        <div class="row row2-height border-black"></div>
+    </div>
+</body>
+</html>
 ```
 
 ### Creating 3 columns
