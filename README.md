@@ -311,15 +311,18 @@ Lets use simple example code and try changing the width of the browser window wh
 </html>
 ```
 
-### Alignment
+## Alignment
+There are two types of alignment using Bootstrap Grid.
  1. Vertical alignment
  2. Horizontal alignment
 
+You can achieve it by adding specific classes either to **row** or to **column**.
+
 ### Vertical alignment(for row)
-Here we have to work with row
- * **.align-items-start**
- * **.align-items-center**
- * **.align-items-end**
+Here we have to work with row and add following classes.
+ * **.align-items-start** - alignes columns at the top of the row.
+ * **.align-items-center** - alignes columns in the middle of the row.
+ * **.align-items-end** - alignes columns at the bottom of the row.
  
 ```html
 <div class="row align-items-start">
@@ -337,10 +340,10 @@ Here we have to work with row
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment.PNG)
 
 ### Vertical alignment(for column)
-Here we're working with column
- * **.align-self-start**
- * **.align-self-center**
- * **.align-self-end**
+Here we're working with column and adding following classes.
+ * **.align-self-start** - alignes **only this** column at the top of the row.
+ * **.align-self-center** - alignes **only this** column in the middle of the row.
+ * **.align-self-end** - alignes **only this** column at the bottom of the row.
 ```html
 <div class="container">
   <div class="row">
@@ -359,12 +362,12 @@ Here we're working with column
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/vertical-alignment-column.PNG)
 
 ### Horizontal alignment
-Working with row again
- * **.justify-content-start**
- * **.justify-content-center**
- * **.justify-content-end**
- * **.justify-content-around**
- * **.justify-content-between**
+Working with row again and adding following classes.
+ * **.justify-content-start** - alignes columns on the left, in the begining of the row.
+ * **.justify-content-center** - alignes columns in the center of the row.
+ * **.justify-content-end** - alignes columns on the right, in the end of the row.
+ * **.justify-content-around** - alignes columns closer to the center with gap between and around the columns.
+ * **.justify-content-between** - alignes columns at the left and right ends of the row with big gap between them.
  
 ```html
 <div class="row justify-content-start">
@@ -399,8 +402,7 @@ Move columns to the right using **.offset-md** classes. These classes increase t
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/offsetting.PNG)
 
 ### Proper semantic
-Don't use **Grid classes** just with `<div>`'s, try to place them inside proper semantic blocks.
-For example use class **.container** as child of such elements: `<header></header>`, `<main></main>`, `<footer></footer>`.
+In all previous examples, for sake of simplicity, we didn't use any other elements than **<div>**. In reality we need to use proper semantic structure for our webpage. For example use class **.container** as child of such elements: `<header></header>`, `<main></main>`, `<footer></footer>`.
 ```html
 <body>
     <header>
@@ -427,15 +429,16 @@ For example use class **.container** as child of such elements: `<header></heade
 </body>
 ```
 
-### Summary, Bootstrap Grid
- 1. Easy to use, 3 main classes.
+## Summary, Bootstrap Grid
+ 1. Easy to use, building grid system just with 3 main classes.
  2. Differen size columns.
  3. Responsive, mobile friendly.
  4. Alignment and offsetting.
  
 ### Useful Links
+This guide displays only the most basic and essential features of the Bootstrap Grid. There are much more what can you do with it. Use official Bootstrap documentation and following links to get to know Bootrap Grid better!
  * [Bootstrap documentation](https://getbootstrap.com/)
  * [Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
- * [W3School guide about Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
+ * [W3School guide about Bootstrap Grid](https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp)
  
 # Thank you!
