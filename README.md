@@ -144,7 +144,7 @@ Lets take a look at the following wireframe and try to create it with code.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-container.png)
 
 ### Creating container
-Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it. **.height class is for creating visual height**, class **.border-black** adds border to blocks.
+Start by creating **html base** document with **CDN link** for **Bootstrap**. And adding **div with .container class** to it.
 
 ```html
 <!DOCTYPE html>
@@ -178,7 +178,7 @@ Lets add inside **.container** two **divs with class .row**
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-3columns.png)
 
 ### Creating 3 columns
-First **.col** will go inside first **.row**. Next two columns will go into the second row.
+First **.col** will go inside first **.row**. Next **two columns** will go into the **second row**.
 
 ```html
 <div class="container">
@@ -201,7 +201,7 @@ First **.col** will go inside first **.row**. Next two columns will go into the 
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-1row.png)
 
 ### Creating row for small columns
-Now we can nest row inside the column.
+Now we can nest row inside the **.col-8** column.
 
 ```html
 <div class="container">
@@ -226,7 +226,7 @@ Now we can nest row inside the column.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/new-grid/wireframe-4columns.png)
 
 ### Final step
-Lets add four columns insed the row that we created in previous example.
+Lets add four **.col-3** columns inside the row that we created in previous example.
 
 ```html
     <div class="container">
