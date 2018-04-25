@@ -18,7 +18,7 @@ _(layout - the way in which the parts of something are arranged or laid out.)_
 
 ## Bootstrap
 
-[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#summary-of-content)
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
 
 Bootstrap is a free and open-source front-end library for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
 
@@ -35,6 +35,9 @@ Bootstrap is a free and open-source front-end library for designing websites and
 * Good starting point in learning how modern websites are built.
 
 ## How to get started?
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 
   * [CDN](https://getbootstrap.com/docs/4.1/getting-started/introduction/#css) _(Content Delivery Network)_ - copy and paste link into `<head></head>` section.
 
@@ -61,6 +64,9 @@ Bootstrap is a free and open-source front-end library for designing websites and
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/contents.png)
 
 ## Grid System
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 Grid - the feature of Bootstrap that helps you create layout. It is series of rows and columns that are represented by css classes. Bootstrap grid has 12 columns.
 
 ### Three main CSS classes to create grid
@@ -139,6 +145,9 @@ Replace two columns with **.col-6**, from previous example, for one **.col-12** 
 </div>
 ```
 ## Breaking down Grid
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 All modern websites are using grid for their layout. At first glance it's not that obvious how it works. To get clear understanding, lets break down the grid of **youtube** page and try to recreate it in the following few sections.
 
 ### Webpage itself
@@ -270,6 +279,9 @@ Lets add four **.col-3** columns inside the row that we created in previous exam
 ```
 
 ## Responsive Grid
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 Is your website responsive? Is it mobile friendly?
 Bootstrap Grid provides you with set of classes with specific **prefixes** that give you possibility to control how your layout would look on devices with different displays. The following table shows which class represents which display size.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/responsiveness-table.PNG)
@@ -305,6 +317,9 @@ Lets use simple example code and try changing the width of the browser window wh
 ```
 
 ## Alignment
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 There are two types of alignment using Bootstrap Grid.
  1. Vertical alignment
  2. Horizontal alignment
@@ -375,6 +390,9 @@ Working with row again and adding following classes.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/horizontal-alignment.PNG)
 
 ## Offsetting
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 Sometimes we want to have some empty space before between or after columns. Or just move them a little bit.
 Move columns to the right using **.offset-md** classes. These classes increase the left margin of a column by * columns. For example, **.offset-md-4** moves .col-md-4 over four columns.
 
@@ -394,7 +412,10 @@ Move columns to the right using **.offset-md** classes. These classes increase t
 
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/offsetting.PNG)
 
-### Proper semantic
+## Proper semantic
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 In all previous examples, for sake of simplicity, we didn't use any other elements than **<div>**. In reality we need to use proper semantic structure for our webpage. For example use class **.container** as child of such elements: `<header></header>`, `<main></main>`, `<footer></footer>`.
 ```html
 <body>
@@ -429,6 +450,9 @@ In all previous examples, for sake of simplicity, we didn't use any other elemen
  4. Alignment and offsetting.
  
 ## Useful Links
+
+[<-- back to summary](https://github.com/toni-mo/bootstrap-grid#bootstrap-grid)
+
 This guide displays only the most basic and essential features of the Bootstrap Grid. There are much more what can you do with it. Use official Bootstrap documentation and following links to get to know Bootrap Grid better!
  * [Bootstrap documentation](https://getbootstrap.com/)
  * [Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
