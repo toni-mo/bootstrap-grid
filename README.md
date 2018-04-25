@@ -5,6 +5,16 @@ _(layout - the way in which the parts of something are arranged or laid out.)_
 
 ### Summary of content
 * [Bootstrap](https://github.com/toni-mo/bootstrap-grid#bootstrap)
+* [How to get started](https://github.com/toni-mo/bootstrap-grid#how-to-get-started)
+* [Grid System](https://github.com/toni-mo/bootstrap-grid#grid-system)
+    * [Different size of columns](https://github.com/toni-mo/bootstrap-grid#different-size-of-columns)
+    * [Nested Columns](https://github.com/toni-mo/bootstrap-grid#nested-columns)
+* [Breaking down Grid](https://github.com/toni-mo/bootstrap-grid#breaking-down-grid)
+* [Responsive Grid](https://github.com/toni-mo/bootstrap-grid#responsiveness)
+* [Alignment](https://github.com/toni-mo/bootstrap-grid#alignment)
+* [Offsetting](https://github.com/toni-mo/bootstrap-grid#offsetting)
+* [Proper Semantic](https://github.com/toni-mo/bootstrap-grid#proper-semantic)
+* [Useful links](https://github.com/toni-mo/bootstrap-grid#useful-links)
 
 ## Bootstrap
 Bootstrap is a free and open-source front-end library for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
@@ -256,7 +266,7 @@ Lets add four **.col-3** columns inside the row that we created in previous exam
     </div>
 ```
 
-## Responsiveness
+## Responsive Grid
 Is your website responsive? Is it mobile friendly?
 Bootstrap Grid provides you with set of classes with specific **prefixes** that give you possibility to control how your layout would look on devices with different displays. The following table shows which class represents which display size.
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/responsiveness-table.PNG)
@@ -361,7 +371,7 @@ Working with row again and adding following classes.
 ```
 ![](https://github.com/toni-mo/bootstrap-grid/blob/master/img/horizontal-alignment.PNG)
 
-### Offsetting
+## Offsetting
 Sometimes we want to have some empty space before between or after columns. Or just move them a little bit.
 Move columns to the right using **.offset-md** classes. These classes increase the left margin of a column by * columns. For example, **.offset-md-4** moves .col-md-4 over four columns.
 
@@ -415,7 +425,7 @@ In all previous examples, for sake of simplicity, we didn't use any other elemen
  3. Responsive, mobile friendly.
  4. Alignment and offsetting.
  
-### Useful Links
+## Useful Links
 This guide displays only the most basic and essential features of the Bootstrap Grid. There are much more what can you do with it. Use official Bootstrap documentation and following links to get to know Bootrap Grid better!
  * [Bootstrap documentation](https://getbootstrap.com/)
  * [Bootstrap Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
