@@ -68,11 +68,6 @@ Class **.container** holds everything and creates those margins on the sides. **
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <style>
-        .height{
-            height: 200px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -97,10 +92,10 @@ In Bootstrap, Grid is divided into **12** columns. Therefore it provides you wit
 Try replacing `<div class="col">`, from previous example, for the two divs with classes **.col-6**:
 
 ```html
-<div class="col-6 border height">
+<div class="col-6 border">
   <h1>This is column with class .col-6</h1>
 </div>
-<div class="col-6 border height">
+<div class="col-6 border">
     <h1>This is column with class .col-6</h1>
 </div>
 ```
@@ -119,10 +114,10 @@ Replace two columns with **.col-6**, from previous example, for one **.col-12** 
 <div class="col-12 border">
   Parent column: .col-12
   <div class="row">
-      <div class="col-6 border height">
+      <div class="col-6 border">
           <h1>Child column: .col-6</h1>
       </div>
-      <div class="col-6 border height">
+      <div class="col-6 border">
           <h1>Child column: .col-6</h1>
       </div>
   </div>
